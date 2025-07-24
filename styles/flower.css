@@ -5,11 +5,10 @@
 
 
 .inter{
-    font-style: bold;
+  font-style: normal;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400px
-    
+  font-weight: 400px 
 }
 
 *{
@@ -124,6 +123,43 @@ color: rgb(255, 255, 255);
 border: none;
 
 }
+
+.box{
+
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  gap: 60px;
+  width: 1140px;
+  height: 597px;
+  align-items: center;
+  text-align: center;
+
+  margin: 150px auto;
+  position: relative;
+}
+
+.box-tittle img{
+
+width: 300px;
+position: absolute;
+left: 35%;
+top: -20%;
+
+
+}
+  
+
+
+
+.box h4{
+
+  font-weight: bold;
+  width: 540px;
+  height: 80px;
+}
+
+
 
 /* resposive meadia quairy */
 @media screen and (max-width: 576px) {
